@@ -6,15 +6,15 @@ GitHub Pages at <https://wuyudapku.github.io>.
 
 ## Structure
 
-| Path | Purpose |
-| --- | --- |
-| `_pages/about.md` | Homepage bio, profile photo, news, latest posts |
-| `_pages/cv.md` + `_data/cv.yml` | CV page (education, awards, skills) |
-| `_posts/` | Blog posts (Markdown, filename `YYYY-MM-DD-title.md`) |
-| `_news/` | Short news announcements on the homepage |
-| `_projects/` | Project portfolio pages |
-| `_bibliography/papers.bib` | Publications in BibTeX |
-| `assets/img/prof_pic.jpg` | Profile photo (replace with your own) |
+| Path                            | Purpose                                               |
+| ------------------------------- | ----------------------------------------------------- |
+| `_pages/about.md`               | Homepage bio, profile photo, news, latest posts       |
+| `_pages/cv.md` + `_data/cv.yml` | CV page (education, awards, skills)                   |
+| `_posts/`                       | Blog posts (Markdown, filename `YYYY-MM-DD-title.md`) |
+| `_news/`                        | Short news announcements on the homepage              |
+| `_projects/`                    | Project portfolio pages                               |
+| `_bibliography/papers.bib`      | Publications in BibTeX                                |
+| `assets/img/prof_pic.jpg`       | Profile photo (replace with your own)                 |
 
 ## Local development (optional)
 
