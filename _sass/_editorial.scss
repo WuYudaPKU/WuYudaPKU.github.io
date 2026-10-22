@@ -1,0 +1,81 @@
+/*******************************************************************************
+ * Editorial journal style: paper background, ink text, PKU red accent,
+ * serif typography (Fraunces / Newsreader / Noto Serif SC).
+ * Local override appended by `assets/css/main.scss`.
+ ******************************************************************************/
+
+:root {
+  --global-bg-color: #faf7f2;
+  --global-card-bg-color: #fffdf9;
+  --global-divider-color: rgba(26, 23, 20, 0.16);
+  --global-footer-bg-color: #1a1714;
+  --global-footer-text-color: #d8d0c4;
+  --global-footer-link-color: #faf7f2;
+}
+
+html,
+body {
+  font-family: "Newsreader", "Noto Serif SC", Georgia, serif;
+}
+
+body {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fraunces", "Noto Serif SC", Georgia, serif;
+  font-weight: 500;
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+// Masthead: double rule under the navbar
+.navbar {
+  border-bottom: 3px double #1a1714;
+
+  .navbar-brand {
+    font-family: "Fraunces", "Noto Serif SC", Georgia, serif;
+  }
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  font-family: "Newsreader", "Noto Serif SC", Georgia, serif;
+  font-size: 1.05rem;
+}
+
+// Field-list under the portrait
+.profile .more-info {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+// Framed portrait plate
+.profile img {
+  background: #fff;
+  border: 1px solid #d8d0c4;
+  padding: 6px;
+}
+
+// Drop cap for the first biography paragraph on the about page
+.post article > .clearfix > p:first-of-type::first-letter {
+  font-family: "Fraunces", "Noto Serif SC", Georgia, serif;
+  font-weight: 500;
+  font-size: 3.1em;
+  float: left;
+  line-height: 0.85;
+  padding-right: 10px;
+  color: #94070a;
+}
+
+::selection {
+  background: rgba(148, 7, 10, 0.16);
+}

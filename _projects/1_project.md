@@ -2,7 +2,6 @@
 layout: page
 title: Add your first project here
 description: how to add a project page
-img: assets/img/1.jpg
 importance: 1
 category: work
 ---

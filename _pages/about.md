@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all of the blog posts
 ---
 
-I am **Yuda Wu (武昱达)**, an undergraduate student in the Department of Mechanics and Engineering Science at Peking University, majoring in *Theoretical and Applied Mechanics — Materials Science and Engineering* (2023--2027).
+I am **Yuda Wu (武昱达)**, an undergraduate student in the Department of Mechanics and Engineering Science at Peking University, majoring in _Theoretical and Applied Mechanics — Materials Science and Engineering_ (2023--2027).
 
 Starting in 2027, I will pursue a PhD in Materials Science and Engineering at Peking University. My research interests lie at the intersection of mechanics and materials, including the mechanical behavior of materials and their microstructure-property relationships.
 
