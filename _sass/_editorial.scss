@@ -2,15 +2,32 @@
  * Editorial journal style: paper background, ink text, PKU red accent,
  * serif typography (Fraunces / Newsreader / Noto Serif SC).
  * Local override appended by `assets/css/main.scss`.
+ *
+ * NOTE: the theme gem's `_sass` precedes the local one in the Sass load
+ * path, so shadowing `_sass/_variables.scss` does NOT work. All color
+ * overrides therefore go through the `--global-*` CSS variables below,
+ * which win the cascade because this partial is imported last.
  ******************************************************************************/
 
 :root {
+  color-scheme: light;
   --global-bg-color: #faf7f2;
-  --global-card-bg-color: #fffdf9;
-  --global-divider-color: rgba(26, 23, 20, 0.16);
+  --global-code-bg-color: rgba(148, 7, 10, 0.05);
+  --global-text-color: #1a1714;
+  --global-text-color-light: #6b6259;
+  --global-theme-color: #94070a;
+  --global-hover-color: #94070a;
+  --global-hover-text-color: #faf7f2;
   --global-footer-bg-color: #1a1714;
   --global-footer-text-color: #d8d0c4;
   --global-footer-link-color: #faf7f2;
+  --global-distill-app-color: #6b6259;
+  --global-divider-color: rgba(26, 23, 20, 0.16);
+  --global-card-bg-color: #fffdf9;
+  --global-highlight-color: #b71c1c;
+  --global-back-to-top-text-color: #faf7f2;
+  --global-newsletter-bg-color: #fffdf9;
+  --global-newsletter-text-color: #1a1714;
 }
 
 html,
