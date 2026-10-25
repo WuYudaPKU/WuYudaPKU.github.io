@@ -8,10 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>College of Engineering</p>
-    <p>Peking University</p>
-    <p>Beijing, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,10 +23,10 @@ latest_posts:
   limit: 3 # leave blank to include all of the blog posts
 ---
 
-I am **Yuda Wu (武昱达)**, an undergraduate student in the Department of Mechanics and Engineering Science at Peking University, majoring in _Theoretical and Applied Mechanics — Materials Science and Engineering_ (2023--2027).
+I am **Yuda Wu (武昱达)**, an undergraduate student in College of Mechanics and Engineering Science at Peking University, majoring in _Theoretical and Applied Mechanics_ (2023--2027).
 
-Starting in 2027, I will pursue a PhD in Materials Science and Engineering at Peking University. My research interests lie at the intersection of mechanics and materials, including the mechanical behavior of materials and their microstructure-property relationships.
+Starting in 2027, I will pursue a PhD in Materials Science and Engineering at Peking University. My research interests lie at Bioelectronics, Functional Materials and Biointerfaces, Biosensing and Neural Interfaces as well as AI for Materials and Devices.
 
-Write more about yourself here: your research experience, interests, and what you are looking forward to in your PhD journey. You can also link to your [CV](/cv/) or your [blog](/blog/).
+I'll be always available at wuyd@stu.pku.edu.cn. Welcome for further communication.
 
 <!-- Update this page in _pages/about.md. Replace assets/img/prof_pic.jpg with your own photo. -->
